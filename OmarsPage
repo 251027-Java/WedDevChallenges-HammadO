@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./main.css">
+    </head>
+
+    <body>
+        <img src="" alt="Image of Earth" width="200"></img>
+
+        <h1>About Me</h1>
+
+    <p>My name is Omar Hammad</p>
+        <p class="myparagraph">I was born and raised in Dallas, Texas and I am currently a trainee at Revature as a Full Stack Developer</p>
+        <p class="someotherparagraph">My background is a Bachelors degree in Business Computer Information Systems, which is a STEM program that mainly
+            focuses on the the science of information in computers and technology alike.
+        </p>
+        <p>When I am not coding I like to play sports and video games, which is what keeps me from going too crazy after a full day of coding!</p>
+        
+        <br><br>
+
+        <h2 class="myparagraph" id="locationsheader">My Next Trips</h2>
+        <ul>
+            <li>USA</li>
+            <ul>
+                <li><a href="https://google.com">New York</a></li>
+                <li><a href="https://google.com">Los Angeles</a></li>
+                <li><a href="https://google.com">Chicago</a></li>
+            </ul>
+            <li>World</li>
+            <ul>
+                <li><a href ="https://google.com">London</a></li>
+                <li><a href="https://google.com">Paris</a></li>
+                <li><a href="https://google.com">Tokyo</a></li>
+            </ul>
+        </ul>
+
+        <h2>Upcoming Classes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Class Name</th>
+                    <th>Location</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>London</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Chicago</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Sign Up!</h2>
+        <form>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+            <br><br>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname">
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+            <input type="submit" value="Submit">
+        </form>
+
+    </body>
+</html>
